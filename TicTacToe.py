@@ -108,7 +108,7 @@ def play_game():
         current_player = "O" if current_player == "X" else "X"
 
 def main():
-    print("Крестики-нолики — версия для оценки 4")
+    print("Крестики-нолики")
     print("Статистика сохраняется в папку game_stats\n")
 
     while True:
@@ -121,4 +121,5 @@ def main():
 
 
 if name == "main":
+
     main()
